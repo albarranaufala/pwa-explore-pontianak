@@ -1,5 +1,5 @@
 const CACHE_NAME = "pontianak";
-var urlsToCache = [
+const urlsToCache = [
     "/",
     "/nav.html",
     "/index.html",
@@ -9,6 +9,7 @@ var urlsToCache = [
     "/pages/creator.html",
     "/js/materialize.min.js",
     "/js/nav.js",
+    "/js/sw-register.js",
     "/css/materialize.min.css",
     "/css/style.css",
     "/img/cehuntiau.webp",
@@ -17,8 +18,12 @@ var urlsToCache = [
     "/img/albarra.jpg",
     "/img/sejarah.png",
     'https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap',
+    'https://fonts.gstatic.com/s/raleway/v18/1Ptug8zYS_SKggPNyCAIT4ttDfCmxA.woff2',
+    'https://fonts.gstatic.com/s/raleway/v18/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2',
     'https://fonts.googleapis.com/icon?family=Material+Icons',
-    '/icon.png',
+    'https://fonts.gstatic.com/s/materialicons/v55/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2',
+    '/icon-192.png',
+    '/icon-512.png',
     '/manifest.json'
 ];
 

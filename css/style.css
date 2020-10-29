@@ -59,7 +59,7 @@ nav li {
     padding-top: calc(64px + 2rem);
 }
 
-.explore h2 {
+.explore h1 {
     margin: 0;
     font-size: 28px;
     font-weight: 700;
@@ -74,7 +74,7 @@ nav li {
     padding-top: calc(64px + 2rem);
 }
 
-.history h2 {
+.history h1 {
     font-size: 28px;
     font-weight: 700;
 }
@@ -83,7 +83,7 @@ nav li {
     padding-top: calc(64px + 2rem);
 }
 
-.creator h2 {
+.creator h1 {
     font-size: 28px;
     font-weight: 700;
     margin: 0;
