@@ -1,0 +1,16 @@
+{
+    "name": "Explore Pontianak",
+    "short_name": "Pontianak",
+    "description": "This is pontianak website",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#333333",
+    "theme_color": "#333333",
+    "icons": [
+        {
+            "src": "/icon.png",
+            "sizes": "440x440",
+            "type": "image/png"
+        }
+    ]
+}

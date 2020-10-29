@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+* {
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+
+nav {
+    background-color: rgb(15, 15, 15);
+    position: fixed;
+    z-index: 9999;
+}
+
+nav .brand-logo{
+    font-weight: bold;
+    background: rgb(195,131,34);
+    background: -moz-linear-gradient(90deg, rgba(195,131,34,1) 0%, rgba(253,187,45,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(195,131,34,1) 0%, rgba(253,187,45,1) 100%);
+    background: linear-gradient(90deg, rgba(195,131,34,1) 0%, rgba(253,187,45,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c38322",endColorstr="#fdbb2d",GradientType=1);
+}
+
+nav li {
+    text-transform: uppercase;
+}
+
+.welcome-container {
+    height: 100vh;
+    width: 100%;
+    background-image: url("/img/naga.webp");
+    background-size: cover;
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.welcome-container h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.welcome-container a{
+    background: rgb(195,131,34);
+    background: -moz-linear-gradient(90deg, rgba(195,131,34,1) 0%, rgba(253,187,45,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(195,131,34,1) 0%, rgba(253,187,45,1) 100%);
+    background: linear-gradient(90deg, rgba(195,131,34,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.explore {
+    padding-top: calc(64px + 2rem);
+}
+
+.explore h2 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.explore img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.history {
+    padding-top: calc(64px + 2rem);
+}
+
+.history h2 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.creator {
+    padding-top: calc(64px + 2rem);
+}
+
+.creator h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+}
